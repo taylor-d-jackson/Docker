@@ -1,0 +1,19 @@
+## Examine Started Containers ##
+
+docker ps
+
+## Stop a Container ##
+
+docker container stop <NAME>
+
+
+## Show status of all Containers, Started/Stopped ##
+
+docker ps -a
+
+## Remove Container ##
+
+docker container rm <NAME>
+
+
+

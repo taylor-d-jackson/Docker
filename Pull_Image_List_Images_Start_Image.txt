@@ -1,0 +1,11 @@
+## Pull an Image ##
+
+docker pull mcr.microsoft.com/dotnet/core/samples:aspnetapp
+
+## List the Images Stored Locally ##
+
+docker image ls
+
+## Run the selected Image and assign the Local/Exposed Ports ##
+
+docker run -d -p 8080:80 mcr.microsoft.com/dotnet/core/samples:aspnetapp
